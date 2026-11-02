@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "moogyberg-moearch_jd119"
+name = "moogyberg-operator_fusion_payoff_count_trace"
 version = "0.1.0"
 description = "统计各来源片段的贡献量与占比，标出MoE 模型架构师·算子融合的收益边界上最主要的来源"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://moogyberg.github.io"
-Repository = "https://github.com/moogyberg/moearch_jd119"
-Issues = "https://github.com/moogyberg/moearch_jd119/issues"
+Repository = "https://github.com/moogyberg/operator_fusion_payoff_count_trace"
+Issues = "https://github.com/moogyberg/operator_fusion_payoff_count_trace/issues"
 
 [project.scripts]
-moearch_jd119 = "moearch_jd119:main"
+operator_fusion_payoff_count_trace = "operator_fusion_payoff_count_trace:main"
 
 [tool.setuptools]
-py-modules = ["moearch_jd119"]
+py-modules = ["operator_fusion_payoff_count_trace"]

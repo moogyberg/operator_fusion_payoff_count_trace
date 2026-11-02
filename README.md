@@ -1,11 +1,11 @@
-# moearch_jd119
+# operator_fusion_payoff_count_trace
 
 **追溯MoE 模型架构师·算子融合的收益边界里每一份贡献来自哪里。**
 
-`moearch_jd119` —— 统计各来源片段的贡献量与占比，标出MoE 模型架构师·算子融合的收益边界上最主要的来源
+`operator_fusion_payoff_count_trace` —— 统计各来源片段的贡献量与占比，标出MoE 模型架构师·算子融合的收益边界上最主要的来源
 
 - 零依赖，Python 3.10+ 标准库即可运行
-- 单文件，`moearch_jd119.py` 拷走就能用
+- 单文件，`operator_fusion_payoff_count_trace.py` 拷走就能用
 - 不联网、不写文件
 
 ## 对应的岗位
@@ -23,16 +23,16 @@
 零依赖，Python 3.10+ 即可：
 
 ```bash
-pip install moogyberg-moearch_jd119
+pip install moogyberg-operator_fusion_payoff_count_trace
 ```
 
 装完直接用命令名调用：
 
 ```bash
-moearch_jd119 --help
+operator_fusion_payoff_count_trace --help
 ```
 
-也可以不用安装，直接把 `moearch_jd119.py` 拷走用——它只依赖标准库。
+也可以不用安装，直接把 `operator_fusion_payoff_count_trace.py` 拷走用——它只依赖标准库。
 
 ## 为什么需要它
 
@@ -47,9 +47,9 @@ moearch_jd119 --help
 ## 用法
 
 ```bash
-python moearch_jd119.py --file input.txt
-python moearch_jd119.py --text "示例内容"
-python moearch_jd119.py --file input.txt --json
+python operator_fusion_payoff_count_trace.py --file input.txt
+python operator_fusion_payoff_count_trace.py --text "示例内容"
+python operator_fusion_payoff_count_trace.py --file input.txt --json
 ```
 
 加 `--json` 可以拿到机器可读的结果，便于接到流水线里。
@@ -62,7 +62,7 @@ python moearch_jd119.py --file input.txt --json
 ## 跑测试
 
 ```bash
-python test_moearch_jd119.py
+python test_operator_fusion_payoff_count_trace.py
 ```
 
 测试用独立的断言与临时数据，不污染工作目录。
@@ -70,7 +70,7 @@ python test_moearch_jd119.py
 ## 来源与参考
 
 - Python 标准库文档：<https://docs.python.org/3/>
-- GitHub 仓库：<https://github.com/moogyberg/moearch_jd119>
+- GitHub 仓库：<https://github.com/moogyberg/operator_fusion_payoff_count_trace>
 
 ---
 
@@ -79,7 +79,7 @@ python test_moearch_jd119.py
 moogyberg 做MoE 模型架构师·算子融合的收益边界相关的问题，方向对标微软的中级MoE 模型架构师岗位。这个工具先替你回答一个具体问题，再谈别的。
 
 - 个人主页：<https://moogyberg.github.io>
-- 仓库：<https://github.com/moogyberg/moearch_jd119>
+- 仓库：<https://github.com/moogyberg/operator_fusion_payoff_count_trace>
 
 ## 许可
 
